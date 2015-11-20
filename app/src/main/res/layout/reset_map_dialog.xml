@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Reset all points on map?"
+        android:id="@+id/textView"
+        android:textColor="#ff2a8add"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/ok_reset"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1"
+              android:background="#ffffffff">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Save File As:"
+            android:id="@+id/saveFileView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#ff2a8add"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/saveFileAs"
+        android:textColor="#ff2a8add"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/loc_info"
+        android:layout_marginRight="30dp"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        app:bootstrapSize="lg"
+        android:textColorHint="#742ea6ff"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/whitespace"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/ok_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"/>
+
+</LinearLayout>

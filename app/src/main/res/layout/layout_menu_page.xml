@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffffff"
+              android:alpha="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/load_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a New Route"
+        android:id="@+id/button_create_route"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="80dp"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        android:visibility="visible"
+        android:alpha="0"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:animated="true"
+        app:bootstrapBrand="primary"
+        app:striped="true"
+        app:roundedCorners="true"
+        app:bootstrapSize="md"
+        app:progress="0"
+        android:layout_marginTop="0dp"
+        android:visibility="visible"
+        android:id="@+id/progress_bar"
+        android:background="#ffffffff"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Load an Existing Route"
+        android:id="@+id/button_load_route"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        android:visibility="visible"
+        android:alpha="0"/>
+</LinearLayout>

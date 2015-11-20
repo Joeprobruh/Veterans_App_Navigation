@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#ffffffff">
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Marker"
+        android:id="@+id/add_marker"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        android:background="#00ffffff"
+        android:onClick="onClick"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Map"
+        android:id="@+id/reset"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        android:background="#00ffffff"
+        android:onClick="onClick"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Route"
+        android:id="@+id/delete_map"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        android:background="#00ffffff"
+        android:onClick="onClick"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Route"
+        android:id="@+id/save"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        android:background="#00ffffff"
+        android:onClick="onClick"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Route"
+        android:id="@+id/load"
+        style="@style/wrapping_button"
+        app:bootstrapSize="lg"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        android:background="#00ffffff"
+        android:onClick="onClick"/>
+</LinearLayout>

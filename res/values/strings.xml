@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Veteran Route Assistance NJCAC</string>
+    <string name="loc_name">Location Name</string>
+    <string name="loc_info">Location Info</string>
+    <string name="photo_add">Add a Photo of Where You Are:</string>
+    <string name="ok">OK</string>
+    <string name="map_delete">Delete a Map</string>
+    <string name="map_load">Load File:</string>
+    <string name="save_file">File Name</string>
+    <string name="add_marker">Add Marker</string>
+    <string name="reset">Reset Map</string>
+    <string name="save_map_option">Save Map</string>
+    <string name="load_map_option">Load Map</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="clear_map_message">Clear Map of all Markers?</string>
+    <string name="clear_map_title">Clear Map</string>
+    <string name="no_maps_delete_error">Error: No maps to delete.</string>
+    <string name="max_file_limit">Error: Cannot save. Reached max file limit (10). Please delete a file first.</string>
+    <string name="no_maps_load_error">Error: No maps to load.</string>
+    <string name="loc_error">Error: Please enter a name of the loaction.</string>
+    <string name="info_error">Error: Please enter a description of the loaction.</string>
+    <string name="pic_error">Error: Please take of picture of the loaction.</string>
+    <string name="cur_pos">Current Position</string>
+    <string name="zoom_out_option">Zoom Out</string>
+    <string name="zoom_in_option">Zoom In</string>
+    <string name="take">Take!</string>
+</resources>
