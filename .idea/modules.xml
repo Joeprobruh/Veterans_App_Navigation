@@ -3,15 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Veterans_App_Navigation.iml" filepath="$PROJECT_DIR$/Veterans_App_Navigation.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/Veterans_App_Navigation1.iml" filepath="$PROJECT_DIR$/Veterans_App_Navigation1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-=======
-      <module fileurl="file://$USER_HOME$/AppData/Local/Android/sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" filepath="$USER_HOME$/AppData/Local/Android/sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" />
-      <module fileurl="file:///Library/android-sdk-macosx/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib1.iml" filepath="/Library/android-sdk-macosx/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib1.iml" />
-      <module fileurl="file:///Library/android-sdk-macosx/extras/android/support/v4/src/tests/tests.iml" filepath="/Library/android-sdk-macosx/extras/android/support/v4/src/tests/tests.iml" />
-      <module fileurl="file:///Library/android-sdk-macosx/extras/android/support/v4/src/v4.iml" filepath="/Library/android-sdk-macosx/extras/android/support/v4/src/v4.iml" />
->>>>>>> 26f5a2e4d682d6ec5561eed63adef217b3de35cb
     </modules>
   </component>
 </project>
